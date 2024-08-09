@@ -1,0 +1,45 @@
+{
+  "lang":"id",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.5,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"a6d0fc360",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "ner":[
+      "DATE",
+      "LOC",
+      "MISC",
+      "MONEY",
+      "ORG",
+      "PER",
+      "QUANTITY",
+      "TIME"
+    ],
+    "sentencizer":[
+
+    ]
+  },
+  "pipeline":[
+    "ner",
+    "sentencizer"
+  ],
+  "components":[
+    "ner",
+    "sentencizer"
+  ],
+  "disabled":[
+
+  ]
+}
